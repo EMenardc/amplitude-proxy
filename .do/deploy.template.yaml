@@ -1,0 +1,9 @@
+spec:
+ name: amplitude-proxy
+ services:
+ - name: amplitude-proxy
+   git:
+     branch: master
+     repo_clone_url: https://github.com/EMenardc/amplitude-proxy
+   dockerfile_path: ./Dockerfile
+   http_port: 80
